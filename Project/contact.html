@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Adding required meta data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  name="description" content="This is the contact page">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Contact Polaroid Instant Camera Classic</title>
+    <!-- Including CSS style sheet-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--Adding google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <!-- Including custom JavaScript file -->
+    <script type="text/javascript" src="./js/jscript.js"></script>
+</head>
+<body>
+     <!--Adding global header created using js-->
+    <header id="header"></header>
+     <!--Creating section containing contact information of company-->
+    <section id="contact-info">
+        <h2>Contact Information</h2>
+        <p>
+            Address: 123 Polaroid Street, Instant City, Cameraland
+        </p>
+        <p>
+            Phone: 555-123-4567
+        </p>
+        <p>
+            Email: info@polaroidclassic.com
+        </p>
+    </section>
+    <!--Creating contact form-->
+    <section id="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <!--Adding global footer created using js-->
+    <footer id="footer"></footer>
+</body>
+</html>
